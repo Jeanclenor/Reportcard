@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="form-container">
+        <form class="form">
+          <div class="student-info">
+            <div class="child">
+              <label for="firstName">First Name:</label>
+              <input type="text" name="firstName" id="firstName" />
+            </div>
+
+            <div class="child">
+              <label for="lastName">Last Name:</label>
+              <input type="text" name="lastName" id="lastName" />
+            </div>
+
+            <div class="child">
+              <label for="age">Age:</label>
+              <input type="number" name="age" id="age" />
+            </div>
+
+            <div class="child">
+              <label for="class">Class:</label>
+              <input type="text" name="class" id="class" placeholder="1A-1G" />
+            </div>
+          </div>
+
+          <div class="grading-system">
+            <div class="child">
+              <label for="Math">Math Grade:</label>
+              <input type="number" name="Math" id="Math" />
+            </div>
+
+            <div class="child">
+              <label for="Grammar">Grammar grade:</label>
+              <input type="number" name="Grammar" id="Grammar" />
+            </div>
+
+            <div class="child">
+              <label for="Science">Science grade:</label>
+              <input type="number" name="Science" id="Science" />
+            </div>
+
+            <div class="child">
+              <label for="Music">Music Grade:</label>
+              <input type="number" name="Music" id="Music" />
+            </div>
+          </div>
+
+          <div class="containerTeacher">
+            <label for="teacher-assessment">What the teacher has to say</label>
+            <textarea name="teacher-assessment" id=""></textarea>
+          </div>
+          <div class="display">
+            <h1></h1>
+          </div>
+          <button class="submit-button" type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+  </body>
+
+  <script src="script.js"></script>
+</html>
